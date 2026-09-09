@@ -1,0 +1,85 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="A lightweight, accessible starter for small-business websites." />
+    <title>CEJA Web Starter</title>
+    <script type="module" src="/src/main.js"></script>
+  </head>
+  <body>
+    <a class="skip-link" href="#main">Skip to content</a>
+    <header class="site-header">
+      <div class="container nav-wrap">
+        <a class="brand" href="#">CEJA Starter</a>
+        <button class="menu-button" type="button" aria-expanded="false" aria-controls="main-nav">Menu</button>
+        <nav id="main-nav" class="main-nav" aria-label="Primary navigation">
+          <a href="#services">Services</a>
+          <a href="#process">Process</a>
+          <a href="#contact">Contact</a>
+        </nav>
+      </div>
+    </header>
+
+    <main id="main">
+      <section class="hero section">
+        <div class="container hero-grid">
+          <div>
+            <p class="eyebrow">Open-source website starter</p>
+            <h1>Build a professional small-business website without unnecessary complexity.</h1>
+            <p class="lead">A clean, responsive and accessible foundation you can clone, customize and deploy quickly.</p>
+            <div class="actions">
+              <a class="button" href="#services">Explore the starter</a>
+              <a class="button secondary" href="https://github.com/julesbassonpro-boop/ceja-web-starter">View on GitHub</a>
+            </div>
+          </div>
+          <aside class="card" aria-label="Starter highlights">
+            <h2>Built for practical use</h2>
+            <ul>
+              <li>Responsive by default</li>
+              <li>Accessible semantic HTML</li>
+              <li>Simple CSS design tokens</li>
+              <li>No runtime dependencies</li>
+              <li>Static-host friendly</li>
+            </ul>
+          </aside>
+        </div>
+      </section>
+
+      <section id="services" class="section muted">
+        <div class="container">
+          <p class="eyebrow">Included sections</p>
+          <h2>A sensible starting point</h2>
+          <div class="grid-3">
+            <article class="card"><h3>Services</h3><p>Explain what the business offers with concise, reusable content blocks.</p></article>
+            <article class="card"><h3>Proof</h3><p>Add projects, testimonials or key figures to build trust without a heavy CMS.</p></article>
+            <article class="card"><h3>Contact</h3><p>Give visitors a clear next step and connect your preferred form provider later.</p></article>
+          </div>
+        </div>
+      </section>
+
+      <section id="process" class="section">
+        <div class="container">
+          <p class="eyebrow">Workflow</p>
+          <h2>Clone. Customize. Deploy.</h2>
+          <ol class="steps">
+            <li><strong>Clone</strong><span>Install the starter locally with npm.</span></li>
+            <li><strong>Customize</strong><span>Change colors, type, copy and sections.</span></li>
+            <li><strong>Deploy</strong><span>Publish the static build on the host you prefer.</span></li>
+          </ol>
+        </div>
+      </section>
+
+      <section id="contact" class="section muted">
+        <div class="container narrow">
+          <p class="eyebrow">Contribute</p>
+          <h2>Help improve the starter</h2>
+          <p>Issues and pull requests are welcome, especially around accessibility, documentation and simple reusable patterns.</p>
+          <a class="button" href="https://github.com/julesbassonpro-boop/ceja-web-starter/issues">Open an issue</a>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer"><div class="container">MIT licensed · CEJA Web Starter</div></footer>
+  </body>
+</html>
