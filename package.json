@@ -1,0 +1,16 @@
+{
+  "name": "ceja-web-starter",
+  "version": "0.1.0",
+  "private": false,
+  "description": "Open-source starter for fast, accessible small-business websites.",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "devDependencies": {
+    "vite": "^7.1.5"
+  },
+  "license": "MIT"
+}
